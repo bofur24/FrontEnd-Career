@@ -1,0 +1,17 @@
+body {
+    background: #333;
+    color: white;
+}
+
+header {
+    background-color: white;
+    color: #333;
+    width: 100px;
+}
+
+main {
+    background-color: blue;
+    color: #fff;
+    width: 200px;
+    height: 600px;
+}
