@@ -1,0 +1,26 @@
+body {
+    background: #333;
+    color: white;
+}
+
+header {
+    background-color: white;
+    color: #333;
+    width: 100px;
+    margin: 50px;
+    padding: 20px;
+}
+
+main {
+    background-color: blue;
+    color: hotpink;
+    width: 300px;
+    margin: 10px 20px
+}
+
+/*  margin: 25px 10px 25px 10px top right bottom left
+    margin: 10px all sides
+    margin: 10px 20px top/bottom & right/left 
+    margin: 25px 10px 15px top left/right bottom */
+    
+
