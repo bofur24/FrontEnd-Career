@@ -1,0 +1,46 @@
+/*  Header
+    Contains the H1
+    Has a dark background color
+    Has a light text color
+    Text is center aligned
+    Has padding top and bottom of 25px
+    Has a margin bottom of 25px */
+
+    header {
+        background-color: #4a4a4a;
+        color: blanchedalmond;
+        text-align: center;
+        padding: 25px 0;
+        margin-bottom: 25px;        
+    }
+
+/*  Main
+    Place the provided image in here
+    Place the text here using headings, paragraph and lists
+    Give it light background color
+    Give it a width of 600px
+    Give it equal padding on all sides
+    Give it a solid red border that is 5px thick  */
+
+    main {
+        background-color: #ffffdd;
+        width: 600px;
+        padding: 25px;
+        border: 5px solid #ff0000;
+    }
+
+/*  Footer
+    Place the provided text in a paragraph
+    Give it a dark background color
+    Give it a light text color
+    Center align the text
+    Give it a padding top and bottom of 25px
+    Give it a margin of 25px on the top only  */
+
+    footer {
+        background-color: #4a4a4a;
+        color: blanchedalmond;
+        text-align: center;
+        padding: 25px 0;
+        margin-top: 25px;
+    }
