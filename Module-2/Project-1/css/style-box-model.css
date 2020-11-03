@@ -9,18 +9,32 @@ header {
     width: 100px;
     margin: 50px;
     padding: 20px;
+    border-color: yellow;
+    border-width: 20px;
+    border-style: groove;
 }
 
 main {
     background-color: blue;
     color: hotpink;
     width: 300px;
-    margin: 10px 20px
+    margin: 10px 20px;
+    padding: 10px 10px;
+    border: yellow 20px ridge;
 }
 
 /*  margin: 25px 10px 25px 10px top right bottom left
     margin: 10px all sides
     margin: 10px 20px top/bottom & right/left 
     margin: 25px 10px 15px top left/right bottom */
+
+/*  border-style: soild;
+    border-style: dotted;
+    border-style: dashed;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge;
+    border-style: outset;
+*/
     
 
