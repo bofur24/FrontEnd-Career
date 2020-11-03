@@ -4,14 +4,11 @@ body {
 }
 
 header {
-    background-color: white;
-    color: #333;
-    width: 100px;
-    margin: 50px;
-    padding: 20px;
-    border-color: yellow;
-    border-width: 20px;
-    border-style: groove;
+  width: 100px;
+  background: steelblue;
+  margin: 20px;
+  padding: 30px;
+  border: 10px solid yellow;
 }
 
 main {
@@ -35,6 +32,14 @@ main {
     border-style: groove;
     border-style: ridge;
     border-style: outset;
+*/
+
+/* 
+    content width 100px +
+    margin 20px + 20px
+    padding 30px + 30px
+    border 10px + 10px
+    total width of header is 220px
 */
     
 
