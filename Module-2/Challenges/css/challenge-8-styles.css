@@ -1,0 +1,17 @@
+/* **Other Information**: 
+ - Inner border color: #1785eb
+ - Outer border color: #f24c46
+ - Total (both borders) thickness: 20px
+ */
+
+ .outer-box {
+    border: 10px solid #f24c46;
+    width: 50px;
+
+ }
+
+ .inner-box {
+     width: 30px;
+     height: 30px;  
+     border: 10px solid #1785eb; 
+ }
