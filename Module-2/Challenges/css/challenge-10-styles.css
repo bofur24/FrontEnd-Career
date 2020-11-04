@@ -1,0 +1,33 @@
+/* **Other Information**: 
+ - Title color: #d17d24
+ - Title size: 60px
+ - Subtitle color: #4985de
+ - Subtitle size: 40px
+ - Text size: 20px
+ - Main section margin: 100px
+ - Normal section margin: 40px
+*/
+
+.title  {
+    font-size: 60px;
+    color: #d17d24;
+    text-align: center;
+}
+
+
+.section-title {
+    font-size: 40px;
+    color: #4985de;
+}
+
+
+.section {
+    font-size: 20px;
+    margin: 40px;
+}
+
+.section-one {
+    margin: 100px;
+    text-align: center;
+}
+

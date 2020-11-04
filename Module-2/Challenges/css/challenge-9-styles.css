@@ -1,0 +1,32 @@
+/* **Other Information**: 
+ - Title color: #0b5710
+ - Title font size: 60px
+ - Header color: #198020
+ - Header font size: 40px
+ - Text font size: 20px
+ - Bolded text color: #801919
+ - Italicized text color: #064791
+ */
+
+
+ h1 {
+     font-size: 60px;
+     color: #0b5710;
+ }
+
+ h2 {
+     font-size: 40px;
+     color: #198020;
+ }
+
+ p {
+     font-size: 20px;
+ }
+
+ strong {
+     color: #801919;
+ }
+
+ em {
+     color: #064791;
+ }

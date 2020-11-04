@@ -1,0 +1,12 @@
+
+
+.columns {
+    display: flex;
+    text-align: center;
+}
+
+.column {
+    width: 250px;
+    padding: 30px;
+    margin: 0 auto;
+}
