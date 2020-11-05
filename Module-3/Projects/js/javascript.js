@@ -44,3 +44,25 @@ var isChecked = true
 console.log("Username:", username )
 console.log("Password:", password)
 console.log("Subscribe:", isChecked)
+
+/////////////////////////////////
+// Complex Data Types - Arrays //
+/////////////////////////////////
+
+// Arrays
+// 0 indexed
+            //0    //1    //2
+var pets = ["dog", "cat", "bird"]
+console.log(pets)
+
+console.log(pets[0])
+console.log(pets[2])
+console.log(pets.length)
+
+var friends = ["Mark", "Larry", "Joe"]
+
+console.log(friends[0])
+console.log(friends[1])
+console.log(friends[2])
+
+
