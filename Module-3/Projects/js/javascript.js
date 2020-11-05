@@ -65,4 +65,28 @@ console.log(friends[0])
 console.log(friends[1])
 console.log(friends[2])
 
+/////////////////////////////////////////
+// Complex Data Types - Objects Part 1 //
+/////////////////////////////////////////
 
+// Objects
+
+// describe a peice of data in depth
+
+var dog = {
+    name: "Spot",
+    age: 4,
+    isHungry: true,
+    favToy: ["bone", "ball", "squeeky thing"]
+}
+
+console.log(dog)
+
+console.log(dog["isHungry"])
+
+var larry = {
+    name: "Larry",
+    age: 20,
+    friends: ["John", "Lisa", "Al"],
+    isPetOwner: true
+}
