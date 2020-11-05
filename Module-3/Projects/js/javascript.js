@@ -88,5 +88,49 @@ var larry = {
     name: "Larry",
     age: 20,
     friends: ["John", "Lisa", "Al"],
-    isPetOwner: true
+    isPetOwner: true,
+    greeting: "Hello Friend!",
+    sayGreeting: function() {
+        console.log(this.greeting)
+    }
 }
+
+// Functions & Methods
+    // Function: a type of data that allows us to execute specific code when/as needed
+    // login
+    // Method: A function that is a property of an object
+
+larry.sayGreeting()
+
+// this keyword inside of an object refers to itself
+
+
+var object = {
+    key: "value",
+
+}
+
+// Create an object that describes something of your choosing, like a car or animal.
+// Give that object 5 key/value pairs that include all primitive and complex data types
+// Give the object 1 method that uses the 'this' keyword to console log something from the object when called
+// console.log 2 properties from the object, once with 'dot' notation and once with 'bracket' notation.
+
+
+
+var car = {
+    make:    "Mustang",
+    model:   "Ford",
+    year:     1970,
+    hasTires: true,
+    value: 50000,
+    whereSold: ["Ford Dealership", "Cars Cars and More Cars"],
+    speed:  "100mph",
+    maxSpeed: function() {
+        console.log(this.speed)
+    }    
+}
+
+console.log(car.model)
+console.log(car["make"])
+car.maxSpeed()
+
