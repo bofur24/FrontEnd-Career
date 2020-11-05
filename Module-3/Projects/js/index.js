@@ -10,4 +10,7 @@ console.log(awesomeHeader)
 awesomeHeader.style.background = 'red';
 awesomeHeader.style.color = 'green';
 
+var myButton = document.getElementById("clickMeButton");
+console.log(myButton)
+
 
