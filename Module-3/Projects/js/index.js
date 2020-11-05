@@ -17,6 +17,7 @@ var counter = 0
 myButton.addEventListener("click", function(){
     // console.log("button was clicked")
     // myButton.style.background = "red"
-    myTitle.textContent = "I'm learning JavaScript"
+    // myTitle.textContent = "I'm learning JavaScript"
+    counter = 2
     myButton.textContent = counter
 })
