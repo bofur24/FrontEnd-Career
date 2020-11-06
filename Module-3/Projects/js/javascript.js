@@ -200,3 +200,53 @@ if(username !== "rick123") {
 } else {
     console.log ("Username & Password are correct")
 }
+
+/////////////////////
+// Truthy & Falsey //
+/////////////////////
+
+// All data in javascript have an inherently Truthy or Falsey value.
+
+
+// falsey Values
+    // 0
+    // ""
+    // null
+    // undefined
+    // NAN
+
+    if("") {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+    var user = {
+        name: "DAVE",
+        email: null,
+        friends: ["rick", "sarah"],
+        address: {
+            street: "123 street",
+            city: "gotham"
+        },
+        id: "0",
+        nickname: undefined
+    }
+
+    if(user.name) {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+    if(user.id) {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+    if(user.nickname) {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
