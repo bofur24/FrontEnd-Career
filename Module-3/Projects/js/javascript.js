@@ -134,3 +134,42 @@ console.log(car.model)
 console.log(car["make"])
 car.maxSpeed()
 
+//////////////////////////
+// Comparison Operators //
+//////////////////////////
+
+// Math operators: + - / *
+
+// Symbols that allow you to compare pieces of data against one another.
+
+// Evaluate
+
+// ===
+
+// = : assignment operator
+
+var name = "rick"
+var age = 10
+
+console.log(name === "rick") // True  Strictly Equal  
+console.log(name !== "rick") // False Strictly Not Equal
+console.log(name !== "alphie") // Ture Strictly Not Equal
+
+var number = 2
+
+console.log(number == "2") // True Loosely Equal
+console.log(number === "2") // False Strictly Equal
+
+console.log(2 > 1) // True 
+
+// console.log(name === "dav") False
+console.log(name !== "dave") // True
+
+// console.log(age !== 10) False
+console.log(age === 10) // True
+
+// console.log(10 < 10) False
+console.log(10 <= 10) // True
+
+// console.log(age >= 11) False
+console.log(age <= 11) // True
