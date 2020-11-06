@@ -173,3 +173,30 @@ console.log(10 <= 10) // True
 
 // console.log(age >= 11) False
 console.log(age <= 11) // True
+
+//////////////////
+// Conditionals //
+//////////////////
+
+// How we ask our program a question about our data and then run a specific set of code depending on the answer.
+
+var color = "blue"
+
+if(color === "red"){
+    console.log("It is red!")
+} else if(color === "yellow") {
+    console.log("It is yellow")
+} else {
+    console.log("The color is not red or yellow")
+}
+
+var username = "rick123"
+var passwrod = "aL8#klfo"
+
+if(username !== "rick123") {
+    console.log("Wrong Username")
+} else if(password !== "aL8#klfo") {
+    console.log("Wrong Password")
+} else {
+    console.log ("Username & Password are correct")
+}
