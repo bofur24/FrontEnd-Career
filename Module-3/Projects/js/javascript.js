@@ -134,3 +134,170 @@ console.log(car.model)
 console.log(car["make"])
 car.maxSpeed()
 
+//////////////////////////
+// Comparison Operators //
+//////////////////////////
+
+// Math operators: + - / *
+
+// Symbols that allow you to compare pieces of data against one another.
+
+// Evaluate
+
+// ===
+
+// = : assignment operator
+
+var name = "rick"
+var age = 10
+
+console.log(name === "rick") // True  Strictly Equal  
+console.log(name !== "rick") // False Strictly Not Equal
+console.log(name !== "alphie") // Ture Strictly Not Equal
+
+var number = 2
+
+console.log(number == "2") // True Loosely Equal
+console.log(number === "2") // False Strictly Equal
+
+console.log(2 > 1) // True 
+
+// console.log(name === "dav") False
+console.log(name !== "dave") // True
+
+// console.log(age !== 10) False
+console.log(age === 10) // True
+
+// console.log(10 < 10) False
+console.log(10 <= 10) // True
+
+// console.log(age >= 11) False
+console.log(age <= 11) // True
+
+//////////////////
+// Conditionals //
+//////////////////
+
+// How we ask our program a question about our data and then run a specific set of code depending on the answer.
+
+var color = "blue"
+
+if(color === "red"){
+    console.log("It is red!")
+} else if(color === "yellow") {
+    console.log("It is yellow")
+} else {
+    console.log("The color is not red or yellow")
+}
+
+var username = "rick123"
+var passwrod = "aL8#klfo"
+
+if(username !== "rick123") {
+    console.log("Wrong Username")
+} else if(password !== "aL8#klfo") {
+    console.log("Wrong Password")
+} else {
+    console.log ("Username & Password are correct")
+}
+
+/////////////////////
+// Truthy & Falsey //
+/////////////////////
+
+// All data in javascript have an inherently Truthy or Falsey value.
+
+
+// falsey Values
+    // 0
+    // ""
+    // null
+    // undefined
+    // NAN
+
+    if("") {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+    var user = {
+        name: "DAVE",
+        email: null,
+        friends: ["rick", "sarah"],
+        address: {
+            street: "123 street",
+            city: "gotham"
+        },
+        id: "0",
+        nickname: undefined
+    }
+
+    if(user.name) {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+    if(user.id) {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+    if(user.nickname) {
+        console.log("It is ture!")    
+    } else {
+        console.log("It is false")
+    }
+
+
+/////////////////////
+// Logic Operators //
+/////////////////////
+
+// Another category in the operator family
+
+// 3 main logic operators
+
+
+// var username = "joe"
+// var password = "joe123"
+
+// // And
+// // &&
+
+// if(username === "joe:" && password === "joe123"){
+//     console.log("Access granted")
+// }else  {
+//     console.log("Username or Password are incorrect")
+// }
+
+// var username = ""
+// var username = "joe"
+
+// // Or
+// // ||
+
+// if(username === "" || password === ""){
+//     console.log("Please provide Username and Password")
+// }else  {
+//     console.log("Both were provided")
+// }  
+
+
+// Negation
+// !
+
+var username = "joe"
+var password = "joe123"
+
+if(!username || !password){
+    console.log("Please provide username and password")
+} else {
+    if(username === "joe" && password === "joe123"){
+    console.log("Access granted")
+    }else  {
+    console.log("Username or Password are incorrect")
+    }
+}
