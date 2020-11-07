@@ -68,3 +68,26 @@ for(let a = 0; a < 101; a++) {
     console.log(a + " Mississippi")
 }
 
+//For loops with arrays
+
+const europe = ["Sweden", "Norway", "Bulgaria", "France", "Germany", "Poland"]
+
+for(let i = 0; i < europe.length; i++) {
+    console.log(europe[i])
+}
+
+
+// Mini Challenge: 
+
+const alEastTeams = ["Orioles", "Red Sox", "Yankees", "Rays", "Blue Jays"]
+const alCentralTeams = ["White Sox", "Indians", "Tigers", "Royals", "Twins"]
+const alWestTeams = ["Astros", "Angels", "Athletics", "Mariners", "Rangers"]
+const nlEastTeams = ["Braves", "Marlins", "Mets", "Phillies", "Nationals"]
+const nlCentralTeams = ["Cubs", "Reds", "Brewers", "Pirates", "Cardinals"]
+const nlWestTeams = ["Diamondbacks", "Rockies", "Dodgers", "Padres", "Giants"]
+
+
+
+for(let i = 0; i < alCentralTeams.length; i++) {
+    console.log(alCentralTeams[i])
+}
