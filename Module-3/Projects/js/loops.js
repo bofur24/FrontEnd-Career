@@ -54,3 +54,17 @@ function textCustomer() {
     console.log('Hi ' + firstName + ', your book is now in')
 }
 textCustomer()
+
+//For loops
+
+// for(let i = 0; i < 10; i ++) {
+//     //code will be ran 10 times
+//     console.log(i) // 0 1 2 3 4 5 6 7 8 9
+// }
+
+//Challenge: print out in your console 0 mississippi to 100 mississippi
+
+for(let a = 0; a < 101; a++) {
+    console.log(a + " Mississippi")
+}
+
