@@ -118,3 +118,17 @@ for (let i = 1; i <= people; i++) {
     console.log(i + " Red Team")
     }    
 }
+
+
+//nested loops
+
+//Using nested loops to print out addresses on a street. We need to print out the building number, then the flat number. Each building has exactly 3 flats in it.
+
+const buildings = 4
+
+for(let i = 0; i < 4; i++) {
+    console.log("building " + (i + 1))
+    for ( let j = 0; j < 3; j++){
+        console.log("building" + (i + 1) + " flat " + (j + 1))
+    }
+}
