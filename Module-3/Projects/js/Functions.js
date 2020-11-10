@@ -18,3 +18,20 @@ function showAlert1(firstName, lastName) {
 
 showAlert1('Keith', 'Heffington')
 showAlert1('Logan', 'Tom', 'Jenny')
+
+
+// using global variables in functions
+const firstName = 'Keith'
+let calls = 0
+
+function showAlert2(){
+    calls += 1
+    console.log(firstName + ', you have been called ' + calls + ' times')
+}
+
+showAlert2()
+
+
+
+
+
