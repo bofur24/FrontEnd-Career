@@ -100,3 +100,40 @@ let lottery = [34, 67, 39, 67, 23]
 
 lottery.push(49)
 console.log(lottery)
+
+//unshift adds new items to the START of an array
+// it will change the length of the array
+
+const number = 35
+
+lottery.unshift(number)
+console.log(lottery)
+
+//Add another object to the start of our gardenPlant array:
+let gardenPlants = [ 
+    {
+        name: 'roses', 
+        origin: 'China'
+    },
+    {
+        name: 'tulips', 
+        origin: 'Asia'
+    },
+]
+
+
+let plant = [
+    {
+        name: 'Daffodil',
+        origin: 'Spain'
+    }
+]
+
+gardenPlants.unshift(plant)
+console.log(gardenPlants)
+
+
+
+
+
+
