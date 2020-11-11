@@ -85,3 +85,18 @@ console.log(horror)
 
 const comedy = films.slice(0, 2)
 console.log(comedy)
+
+
+// push method added new items to the END of and existing array
+// it mutates that esisting array
+// changes the length of that array
+
+let books = ['Moby Dick', 'Life of Pi', 'sapiens']
+
+books.push('Hungry Caterpillar')
+console.log(books)
+
+let lottery = [34, 67, 39, 67, 23]
+
+lottery.push(49)
+console.log(lottery)
