@@ -31,7 +31,40 @@ function showAlert2(){
 
 showAlert2()
 
+// Math.random()
+
+Math.random()
+
+console.log(Math.random())
+
+const items = 10
+
+let randomNumber = Math.random() * items
+
+console.log(randomNumber)
+
+// Math.floor() round down a number
+
+let newNumber = Math.floor(randomNumber)
+
+console.log(newNumber)
 
 
+
+// Random Pick Items from the Shop Items Array
+
+const shopItems = ['Toy Car', 'Plush', 'Pokemon', 'Baseball Cards']
+
+let randomNum = Math.random() * shopItems.length
+
+console.log(randomNum)
+
+let nextNumber = Math.floor(randomNum)
+
+console.log(nextNumber)
+
+let randomItem = shopItems[nextNumber]
+
+console.log(randomItem)
 
 
