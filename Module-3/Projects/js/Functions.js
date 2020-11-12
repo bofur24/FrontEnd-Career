@@ -174,3 +174,54 @@ let planets = [
 let removedPlanet = planets.pop()
 
 console.log(removedPlanet)
+
+
+//shift() removes the first item of an array returns that removed item changes the length
+
+
+let cars = [
+    {
+        name: 'ford',
+        colour: 'black'
+    },
+    {
+        name: 'volkswagen',
+        colour: 'blue'
+    },  
+    {
+        name: 'aston martin',
+        colour: 'red'
+    }
+]
+
+let car = cars.shift()
+
+console.log(car)
+console.log(cars)
+
+let teams = [
+    {
+        name: 'Mariners',
+        location: 'Seattle WA'
+    },
+    {
+        name: 'Rangers',
+        location: 'Arlington TX'
+    },
+    {
+        name: 'Astros',
+        location: 'Huston TX'
+    },
+    {
+        name: 'Angles',
+        location: 'Anaheim CA'
+    }
+]
+
+
+console.log(teams)
+
+let team = teams.shift()
+
+console.log(team)
+
