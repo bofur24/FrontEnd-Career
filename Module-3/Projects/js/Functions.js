@@ -133,7 +133,44 @@ gardenPlants.unshift(plant)
 console.log(gardenPlants)
 
 
+// POP() REMOVE THE LAST ITEM OF AN ARRAY
+
+// will mutate the existing array
 
 
+// let planets = ['Earth', 'Mars', 'Saturn', 'Uranus','Pluto']
+
+// console.log(planets)
+
+// let removedPlanet = planets.pop()
 
 
+// console.log('Removed planet ' + removedPlanet + ' from array.')
+
+let planets = [
+    {
+        name: 'Earth',
+        position: 3
+    },
+    {
+        name: 'Mars',
+        position: 4
+    },
+    {
+        name: 'Saturn',
+        position: 6
+    },
+    {
+        name: 'Uranus',
+        position: 7
+    },
+    {
+        name: 'Pluto',
+        position: 8
+    },
+]
+
+
+let removedPlanet = planets.pop()
+
+console.log(removedPlanet)
