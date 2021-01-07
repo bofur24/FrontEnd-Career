@@ -104,3 +104,85 @@ document.getElementById("paragraphHelp").style.textAlign = "center"
 // 3. What happens if I create an element using `.createElement()` but don't use `.append()`?
 
 // 4. How might you use a for loop in conjunction with the DOM methods for create elements?
+
+
+// Looping an Array of objects
+
+
+// array of objects
+var powerRangers = [
+    {name: "Jason Lee Scott", color: "Red"},
+    {name: "Kimberly Hart", color: "Pink"},
+    {name: "Zack Taylor", color: "Black"},
+    {name: "Trini Kwan", color: "Yelow"},
+    {name: "Billy Caranston", color: "Blue"},
+    {name: "Tommy Oliver", color: "Green"},
+    // "Kimberly Hart",
+    // "Zack Taylor",
+    // "Trini Kwan",
+    // "Billy caranston",
+    // "Tommy Oliver"
+]
+
+// Variable set to get your data by id
+var rangersList = document.getElementById("rangers")
+
+// for loop to access the data in the array then append it to the rangersList
+for (var i = 0; i < powerRangers.length; i++){
+    rangersList.innerHTML += "<li>" + powerRangers[i].name + " - " + powerRangers[i].color  + "</li>"
+    
+    
+    // var newName = document.createElement("li")
+    // newName.textContent = powerRangers[i]
+    // rangersList.append(newName)
+}
+
+
+// EventListeners
+
+
+// Code that tracks all events that happen on a page loged to the console
+
+// Object.keys(window).forEach(key => {
+//     if (/^on/.test(key)) {
+//         window.addEventListener(key.slice(2), event => {
+//             console.log(event.type);
+//         });
+//     }
+// });
+
+
+var button = document.getElementById("button")
+
+function handleButtonClick() {
+    console.log("The button was clicked")
+}
+
+button.addEventListener("click", handleButtonClick)
+
+/**
+ * Challenge:
+ * 
+ * Look up some common HTML/JS events and set up your page to listen for that event.
+ */
+
+ document.getElementById("head").addEventListener("dblclick", function() {
+     console.log("The header was double clicked!")
+ })
+
+ var button1 = document.getElementById("button1")
+
+ function backGroundChange() {
+    document.body.style.backgroundColor = "Grey"
+ }
+
+ button1.addEventListener("click", backGroundChange)
+ //button1.removeEventListener("click", backGroundChange)
+
+ var button3 = document.getElementById("firstName").value
+
+ function handleinputButton() {
+     console.log(button3)
+ }
+ 
+button2.addEventListener("click", handleinputButton)
