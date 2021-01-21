@@ -43,3 +43,17 @@ body {
     border-radius: 25px;
     margin-top: 1em;
 }
+
+ .entries-nav {
+     padding-bottom: 1em;
+     margin: 0.2em;
+
+ }
+
+ .display-entery-button {
+    margin: 0.2em;
+ }
+
+ .display-entery-button:hover {
+     cursor: pointer;
+ }
